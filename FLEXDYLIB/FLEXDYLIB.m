@@ -10,6 +10,13 @@
 #import <UIKit/UIKit.h>
 #import "FLEXManager.h"
 
+/**
+ 现在默认编译为dylib，用于越狱使用，变以前要安装iOSOpenDev，如果只在某些app自行使用
+ 可以将proj文件中com.apple.product-type.library.dynamic 改为 com.apple.product-type.framework
+ 具体参见my blog: http://www.billchai.xyz/zi-ji-dong-shou-zai-xcode6xia-bian-xie-dylibdong-tai-ku-wen-jian.html
+ 工程目录有一个我编译好的framework，避免每次都自己设
+ */
+
 @implementation FLEXDYLIB
 
 - (id)init

@@ -1,0 +1,6 @@
+framework module FLEXDYLIB {
+  umbrella header "FLEXDYLIB.h"
+
+  export *
+  module * { export * }
+}
